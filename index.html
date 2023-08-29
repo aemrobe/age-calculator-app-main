@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!--css-->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!--main-->
+    <main class="main">
+      <!--form-->
+      <form action="#" class="form">
+        <!--day input-->
+        <div class="form__input">
+          <label for="form__day-input"> Day</label>
+
+          <input
+            aria-invalid="false"
+            name="day"
+            id="form__day-input"
+            type="number"
+            placeholder="DD"
+          />
+
+          <!--error message-->
+          <p class="error-message hidden">error</p>
+        </div>
+
+        <!--month input-->
+        <div class="form__input">
+          <label for="form__month-input"> Month</label>
+
+          <input
+            aria-invalid="false"
+            name="month"
+            id="form__month-input"
+            type="number"
+            placeholder="MM"
+          />
+
+          <!--error message-->
+          <p class="error-message hidden">error</p>
+        </div>
+
+        <!--year input-->
+        <div class="form__input">
+          <label for="form__year-input">Year</label>
+
+          <input
+            aria-invalid="false"
+            name="year"
+            id="form__year-input"
+            type="number"
+            placeholder="YYYY"
+          />
+
+          <!--error message-->
+          <p class="error-message hidden">error</p>
+        </div>
+
+        <button type="submit">
+          <img src="./assets/images/icon-arrow.svg" alt="button" />
+        </button>
+      </form>
+
+      <!--output-->
+      <div class="output">
+        <!--year output-->
+        <div class="output__type output__years">
+          <p class="output__type-text output__years-text">--</p>
+          years
+        </div>
+
+        <!--month output-->
+        <div class="output__type output__months">
+          <p class="output__type-text output__months-text">--</p>
+          months
+        </div>
+
+        <!--days output-->
+        <div class="output__type output__days">
+          <p class="output__type-text output__days-text">--</p>
+          days
+        </div>
+      </div>
+    </main>
+
+    <!--footer-->
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Aemro Bekalu</a>.
+      </div>
+    </footer>
+
+    <!--javascript-->
+    <script src="script.js"></script>
+  </body>
+</html>
