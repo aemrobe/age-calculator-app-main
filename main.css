@@ -78,7 +78,7 @@ body {
 }
 
 .form {
-  border-bottom: 2px solid var(--Light-grey);
+  border-bottom: 2px solid var(--Off-white);
   position: relative;
   padding-bottom: 6.5rem;
   display: flex;
